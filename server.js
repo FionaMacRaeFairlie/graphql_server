@@ -12,7 +12,6 @@ const { useServer } = require("graphql-ws/lib/use/ws");
 const { PubSub } = require("graphql-subscriptions");
 const cors = require('cors');
 
-
 const port = 4000;
 
 const blogs_update = "OPERATION_FINISHED";
